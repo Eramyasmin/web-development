@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Level 3</title>
+ </head>
+ <body>
+   <form action="/server">
+      who are you
+      <input type="checkbox" id="username" name="username"checked/>
+      <lable for="username">human</lable>
+      <input type="checkbox" id="username" name="username" checked/>
+      <lable for="username">robot</lable>
+      <div>
+         choose your gender
+         <input type="radio" name="gender" id="male"value="male"/>
+         <lable for="male">male</lable>
+         <input type="radio" name="gender" id="female"value="female"/>
+         <lable for="female">female</lable>
+         <input type="radio" name="gender" id="trans"value="trans"/>
+         <lable for="trans">trans</lable>
+      </div>
+      <div>
+         choose your profession
+         <select name="profession" id="profession">
+            <option>select your options</option>
+          <option value="student">student</option>
+          <option value="teacher">teacher</option>  
+         </select>
+      </div>
+         <lable for="vol">select your volume lable : </lable>
+         <input type="range" id="vol" min="0" max="100" name="vol" step="10"value="50"/>
+         <br/>
+         <lable for="feedback">please give your feedback :</lable>
+         <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+         <button>submit</button>
+  </form>
+ </body>
+</html>
